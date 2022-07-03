@@ -3,6 +3,7 @@ using System.Drawing;
 using System.Drawing.Imaging;
 
 
+// InfoKriegerX66's Pastebin: https://pastebin.com/cwHRC13i
 
 #pragma warning disable CA1416 // Validate platform compatibility
 Image Picture = Image.FromFile(@"C:\Users\johnd\Desktop\johndward01\imgs\Csharp_Logo_stretched.png");
