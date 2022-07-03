@@ -6,7 +6,7 @@ using System.Drawing.Imaging;
 // InfoKriegerX66's Pastebin: https://pastebin.com/cwHRC13i
 
 #pragma warning disable CA1416 // Validate platform compatibility
-Image Picture = Image.FromFile(@"C:\Users\johnd\Desktop\johndward01\imgs\Csharp_Logo_stretched.png");
+Image Picture = Image.FromFile(@"/*INSERT_PATH_TO_FILE_HERE*/");
 #pragma warning restore CA1416 // Validate platform compatibility
 Console.SetBufferSize((Picture.Width * 0x2), (Picture.Height * 0x2));
 FrameDimension Dimension = new FrameDimension(Picture.FrameDimensionsList[0x0]);
